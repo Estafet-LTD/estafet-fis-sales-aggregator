@@ -1,0 +1,36 @@
+---
+# UNCOMENT define the Absolute path where you want to checkout the sourcecode
+workdir: "{{ ansible_env.HOME }}/.estafet"
+# UNCOMENT Define the OpenShift host:port address
+openshift: 192.168.99.100:8443
+# Your OpenShift credentials
+username: developer
+password: developer
+# Uncomment the following line to adjust the SCC (not using CDK3/minishift)
+adjust_scc: false
+# Define the name of the OpenShift project
+project_name: sales-aggregator
+
+# Optional parts
+# Some users might have the MSA modules cloned locally already. For those cases, make this 'false' and
+# we'll not attempt to clone it again
+clone_modules: true
+
+# Project definition - You don't need to change anything here
+sales_aggregator_projects:
+
+  - name: restful-producer
+    repo: estafet-fis-sales-aggregator-restful-producer
+    db: true
+    db_url_env: RESTFUL_PRODUCER_JDBC_URL
+    db_user_env: RESTFUL_PRODUCER_DB_USER
+    db_db_env: RESTFUL-PRODUCER_DB_PASSWORD
+    service_host: restful-producer.microservices-scrum.svc 
+    service_uri_env: RESTFUL_PRODUCER_SERVICE_URI
+        
+#  - name: basic-ui
+#    repo: estafet-microservices-scrum-basic-ui
+#    db: false
+#    service_host: basic-ui.microservices-scrum.svc
+#    service_uri_env: BASIC_UI_SERVICE_URI
+    

@@ -1,27 +1,9 @@
-[submodule "estafet-fis-sales-aggregator-items-report"]
-	path = estafet-fis-sales-aggregator-items-report
-	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-items-report.git
-[submodule "estafet-fis-sales-aggregator-product-trend-report"]
-	path = estafet-fis-sales-aggregator-product-trend-report
-	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-product-trend-report.git
-[submodule "estafet-fis-sales-aggregator-restful-customer-consumer"]
-	path = estafet-fis-sales-aggregator-restful-customer-consumer
-	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-restful-customer-consumer.git
 [submodule "estafet-fis-sales-aggregator-restful-producer"]
 	path = estafet-fis-sales-aggregator-restful-producer
 	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-restful-producer.git
-[submodule "estafet-fis-sales-aggregator-restful-sales-consumer"]
-	path = estafet-fis-sales-aggregator-restful-sales-consumer
-	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-restful-sales-consumer.git
 [submodule "estafet-fis-sales-aggregator-ui"]
 	path = estafet-fis-sales-aggregator-ui
 	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-ui.git
-[submodule "estafet-fis-sales-aggregator-xml-customer-consumer"]
-	path = estafet-fis-sales-aggregator-xml-customer-consumer
-	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-xml-customer-consumer.git
 [submodule "estafet-fis-sales-aggregator-xml-producer"]
 	path = estafet-fis-sales-aggregator-xml-producer
 	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-xml-producer.git
-[submodule "estafet-fis-sales-aggregator-xml-sales-consumer"]
-	path = estafet-fis-sales-aggregator-xml-sales-consumer
-	url = https://github.com/Estafet-LTD/estafet-fis-sales-aggregator-xml-sales-consumer.git
